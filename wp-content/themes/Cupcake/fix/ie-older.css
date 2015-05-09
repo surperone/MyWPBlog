@@ -1,0 +1,48 @@
+*html{
+	background-image:url(about:blank);
+	background-attachment:fixed;
+}
+.mainWrapp .topWrapp .headerWrapp .sns a {
+	background-image: url("../images/ie6/sns.png") !important;
+}
+.mainWrapp .topWrapp .navbarWrapp .menuWrapp .closeSearch {
+	background: url("../images/ie6/all.png") no-repeat !important;
+}
+.mainWrapp .topWrapp .navbarWrapp .menuWrapp .closeSearch:hover {
+	background-position: -45px 0 !important;
+}
+.mainWrapp .topWrapp .navbarWrapp .menuWrapp .focus {
+	background-position: -45px 0 !important;
+}
+.mainWrapp .contentWrapp .postWrapp .post .title,
+.mainWrapp .contentWrapp .postWrapp .page .title {
+	background: url("../images/ie6/all.png") no-repeat #383838;
+	background-position: 0 -45px !important;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp {
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp #respond .form-submit {
+	padding: 0 10px;
+	height: 55px;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp #respond .form-submit input#submit {
+	margin: 12px 0 0 0;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp .titleWrapp .close {
+	background: url("../images/ie6/all.png") -35px -80px no-repeat;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp .titleWrapp .close:hover {
+	background: url("../images/ie6/all.png") -55px -80px no-repeat !important;
+}
+.mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem .menu li:hover > .sub-menu {
+	margin-left: -125px !important;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .respondWrapp .titleWrapp {
+	background: url("../images/ie6/all.png") 0 -100px no-repeat #383838;
+}
+.mainWrapp .contentWrapp .postWrapp .commentsWrapp .commentsList .noComment .icon {
+	background: url("../images/ie6/nocomment.png") no-repeat;
+}
