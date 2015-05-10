@@ -54,6 +54,11 @@
 						<p class="description"><?php bloginfo('description'); ?></p>
 					</div>
 					<div class="sns">
+						<p>
+<a href="http://weibo.com/lslisheng" target="_blank" class="snsa"><img src="http://2.lishengblog1.sinaapp.com/wp-content/themes/Cupcake/images/sns_weibo.png" class="sns"></a>
+<a href="https://github.com/lishengzxc" target="_blank" class="snsa"><img src="http://2.lishengblog1.sinaapp.com/wp-content/themes/Cupcake/images/sns_github.png" class="sns"></a>
+<a href="http://codepen.io/lishengzxc/" target="_blank" class="snsa"><img src="http://2.lishengblog1.sinaapp.com/wp-content/themes/Cupcake/images/apple-touch-icon-57x57.png" class="sns"></a>
+</p>
 						<?php if(get_option('cupcake_facebookSwitch')) : ?><a class="facebook" title="<?php _e('Facebook', 'cake') ?>" target="_blank" href="<?php echo get_option('cupcake_facebook'); ?>"></a><?php endif; ?>
 						<?php if(get_option('cupcake_gplusSwitch')) : ?><a class="gplus" title="<?php _e('Google+', 'cake') ?>" target="_blank" href="<?php echo get_option('cupcake_gplus'); ?>"></a><?php endif; ?>
 						<?php if(get_option('cupcake_twitterSwitch')) : ?><a class="twitter" title="<?php _e('Twitter', 'cake') ?>" target="_blank" href="<?php echo get_option('cupcake_twitter'); ?>"></a><?php endif; ?>

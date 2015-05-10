@@ -25,12 +25,12 @@
 	}
 	.mainWrapp .contentWrapp .postWrapp .post .thumb a img,
 	.mainWrapp .contentWrapp .postWrapp .page .thumb a img {
-		width: 610px;
+		/*width: 610px;*/
 		height: 151px;
 	}
 	.mainWrapp .contentWrapp .postWrapp .post img,
 	.mainWrapp .contentWrapp .postWrapp .page img {
-		width: 610px;
+		/*width: 610px;*/
 		height: auto;
 	}
 	.mainWrapp .contentWrapp .postWrapp .post .information,
@@ -103,12 +103,12 @@
 	}
 	.mainWrapp .contentWrapp .postWrapp .post .thumb a img,
 	.mainWrapp .contentWrapp .postWrapp .page .thumb a img {
-		width: 100%;
+		/*width: 100%;*/
 		height: auto;
 	}
 	.mainWrapp .contentWrapp .postWrapp .post .thumb img,
 	.mainWrapp .contentWrapp .postWrapp .page .thumb img {
-		width: 100%;
+		/*width: 100%;*/
 		height: auto;
 	}
 	.mainWrapp .contentWrapp .postWrapp .post .bottom,

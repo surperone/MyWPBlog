@@ -15,7 +15,8 @@ font-weight: normal;
 font-style: normal;
 }
 ol,ul {
-list-style: none;
+/*list-style: none;*/
+margin: 1.1em 0 1.1em 45px;
 }
 caption,th {
 text-align: left;

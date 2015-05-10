@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
 			$('.menuItemMobile .item').css({
 				'display':'block'
 			});
-			$(this).css({'background-color' : '#F74E49'});
+			$(this).css({'background-color' : '#4980F7'});
 		},
 		function(){
 			$('.menuItemMobile .item').css({

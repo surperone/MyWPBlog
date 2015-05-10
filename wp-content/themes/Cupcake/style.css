@@ -12,7 +12,7 @@ Made in a Mac.
 /* RESET */
 body {
 	background: #F7F7F7;
-	font: 13px 'Microsoft YaHei','微软雅黑','Tahoma','Verdana';
+	font: 14px 'Microsoft YaHei','微软雅黑','Tahoma','Verdana';
 	/*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);*/
 }
 a {
@@ -88,10 +88,10 @@ textarea {
 	float: right;
 }
 .mainWrapp .topWrapp .headerWrapp .sns a {
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 	margin: 0 10px 0 0;
-	background: url("images/sns.png") no-repeat #BBB;
+	/*background: url("images/sns.png") no-repeat #BBB;*/
 	display: inline-block;
 }
 .mainWrapp .topWrapp .headerWrapp .sns a.facebook {
@@ -121,6 +121,9 @@ textarea {
 }
 
 /* 選單 */
+.menu {
+	margin: 0
+}
 .mainWrapp .topWrapp .navbarWrapp {
 	width: 100%;
 	height: 45px;
@@ -148,7 +151,7 @@ textarea {
 	display: block;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItemMobile .mobileToggle:hover {
-	background-color: #F74E49;
+	background-color: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItemMobile .item {
 	width: 100%;
@@ -176,7 +179,7 @@ textarea {
 	text-align: center;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItemMobile .item a:hover {
-	background: #F74E49;
+	background: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem {
 	width: 850px;
@@ -193,16 +196,16 @@ textarea {
 	float: left;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem a:hover {
-	background: #F74E49;
+	background: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem a:active {
 	background: rgba(247,78,73,0.7);
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem a.current {
-	background: #F74E49;
+	background: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem .current-menu-item  a {
-	background: #F74E49;
+	background: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .menuItem .menu li .sub-menu {
 	position: absolute;
@@ -235,7 +238,7 @@ textarea {
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .searchWrapp form {
 	width: 160px;
 	height: 100%;
-	background: #F74E49;
+	background: #4980F7;
 	overflow: hidden;
 	float: left;
 	display: none;
@@ -261,7 +264,7 @@ textarea {
 	display: block;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .closeSearch:hover {
-	background-color: #F74E49;
+	background-color: #4980F7;
 }
 .mainWrapp .topWrapp .navbarWrapp .menuWrapp .focus {
 	background-color: #F74E49
@@ -331,16 +334,17 @@ textarea {
 }
 .mainWrapp .contentWrapp .postWrapp .post .thumb a img,
 .mainWrapp .contentWrapp .postWrapp .page .thumb a img {
-	width: 810px;
+	/*width: 810px;*/
 	height: 200px;
 }
 .mainWrapp .contentWrapp .postWrapp .post img,
 .mainWrapp .contentWrapp .postWrapp .page img {
-	width: 810px;
+	/*width: 810px;*/
 	margin: 0;
 }
 .mainWrapp .contentWrapp .postWrapp .post p,
 .mainWrapp .contentWrapp .postWrapp .page p {
+	text-indent: 2em;
 	margin: 0 0 1.1em 0;
 }
 .mainWrapp .contentWrapp .postWrapp .post .information,
@@ -361,7 +365,7 @@ textarea {
 	float: left;
   	display: block;
   	margin: 0 5px 0 0;
-  	background: #F74E49;
+  	background: #4980F7;
   	color: #fff;
   	padding: 4px;
   	border-radius: 4px;
@@ -384,7 +388,7 @@ textarea {
 }
 .mainWrapp .contentWrapp .postWrapp .post .postEntry li,
 .mainWrapp .contentWrapp .postWrapp .page .postEntry li {
-	list-style: none;
+	/*list-style: none;*/
 }
 .mainWrapp .contentWrapp .postWrapp .post .postEntry a,
 .mainWrapp .contentWrapp .postWrapp .page .postEntry a {
@@ -394,15 +398,20 @@ textarea {
 .mainWrapp .contentWrapp .postWrapp .post .postEntry img,
 .mainWrapp .contentWrapp .postWrapp .page .postEntry img {
 	width: 100%;
-	height: auto;
-	margin: 15px auto 15px auto;
-	display: block;
-	border: 1px solid #DDD;
+  	height: auto;
+  	margin: 15px auto 15px auto;
+  	display: block;
+  	border: 0.7em solid #e0dfcc;
+  	-moz-border-radius: 0.7em;
+  	-webkit-border-radius: 0.7em;
+  	border-radius: 0.7em;
+  	box-sizing: border-box;
 }
 .mainWrapp .contentWrapp .postWrapp .post .postEntry blockquote,
 .mainWrapp .contentWrapp .postWrapp .page .postEntry blockquote {
 	padding: 5px 5px 5px 1em;
 	border-left: 4px solid #DDD;
+	margin: 0 0 1.1em 0;
 }
 blockquote p {
 	margin: 0 !important;
@@ -428,7 +437,7 @@ blockquote p {
 .mainWrapp .contentWrapp .postWrapp .post .bottom,
 .mainWrapp .contentWrapp .postWrapp .page .bottom {
 	width: 760px;
-	margin: 10px 0 10px 0;
+	margin: 0 0 10px 0;
 	overflow: hidden;
 }
 .mainWrapp .contentWrapp .postWrapp .post .bottom .tags,
@@ -450,7 +459,7 @@ blockquote p {
 }
 .mainWrapp .contentWrapp .postWrapp .post .bottom .tags a:hover,
 .mainWrapp .contentWrapp .postWrapp .page .bottom .tags a:hover {
-	background: #F74E49;
+	background: #4980F7;
 }
 .mainWrapp .contentWrapp .postWrapp .post .bottom .readMore,
 .mainWrapp .contentWrapp .postWrapp .page .bottom .readMore {
@@ -704,7 +713,7 @@ blockquote p {
 	color: #3F3E3E;
 }
 .mainWrapp .contentWrapp .postWrapp .pageNavigatorWrapp a:hover {
-	color: #F74E49;
+	color: #4980F7;
 }
 .mainWrapp .contentWrapp .postWrapp .pageNavigatorWrapp a.Previous {
 	margin: 0 0 0 20px;
@@ -722,7 +731,7 @@ blockquote p {
 	color: #999 !important;
 }
 .mainWrapp .contentWrapp .postWrapp .pageNavigatorWrapp .PageCount {
-	margin: 0 0 0 25px;
+	margin: 0 0 0 13px;
 	float: left;
 }
 
@@ -855,15 +864,36 @@ li.ds-post.ds-post-placeholder {
 
 /*markdown*/
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin: .6em 0 !important;
+  	font-weight: bold;
+  	margin: .6em 0 !important;
 }
 h2 {
-  font-size: 1.5em;
+  	font-size: 1.5em;
 }
 h3 {
-  font-size: 1.4em;
+	color: rgb(102, 102, 102);
+  	font-size: 1.4em;
 }
 h4 {
-  font-size: 1.25em;
+	color: rgb(102, 102, 102);
+  	font-size: 1.25em;
+}
+.tagcloud {
+	padding: 15px;
+}
+.sidebarWrapp ul {
+	list-style: none;
+}
+
+img.sns {
+	width: 30px !important;
+  	height: 30px !important;
+  	display: inline !important;
+  	border: none !important;
+  	margin: 10px 5px 0 0 !important;
+  	border-radius: 50% !important;
+}
+a.snsa:hover {
+	position: relative;
+  	bottom: 5px;
 }
