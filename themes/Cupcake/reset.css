@@ -30,3 +30,6 @@ content:'';
 }
 abbr,acronym { border: 0;
 } 
+tt, code, kbd, samp {
+  font-family: monospace;
+}
